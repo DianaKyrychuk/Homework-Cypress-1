@@ -9,7 +9,7 @@ describe('', () => {
         });
     });
 
-    it('', () => {
+    it('to sign up', () => {
         cy.get(':nth-child(3) > .nav-link').click();
         cy.get(':nth-child(1) > .form-control').type(user.username);
         cy.get(':nth-child(2) > .form-control').type(user.email);
